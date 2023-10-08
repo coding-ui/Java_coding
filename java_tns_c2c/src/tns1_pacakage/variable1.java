@@ -8,7 +8,7 @@ public class variable1 {
 		int a=15;
 		System.out.println(a);
 		int y=14;
-		System.out.println(y);
+		System.out.println(y); 
 
 	}
 
