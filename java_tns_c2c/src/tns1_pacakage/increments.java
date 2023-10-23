@@ -7,9 +7,9 @@ public class increments {
 		int b=20;
 		int c;
 		System.out.println("a="+a);
-		System.out.println("after increment a="+a);
 
-		//post increment		
+
+		//post increment.		
 		c=a++;//c=10,a=11
 		System.out.println("post Increment");
 		System.out.println("c="+c+" and "+"a="+a);
@@ -27,9 +27,10 @@ public class increments {
 		int x=10;
 		++a;//a=12
 		c=++a +b+ a--;//12 +20+12-- =>42,a=11.
-		System.out.println("c="+c+"a="+a);
-		int d=c++ +a+ b--;
-		System.out.println("c"+c);
+		System.out.println("c="+c+" a="+a);
+		int d=c++ +a+ b--;//44++ +11+ 20-- =>75,a=11.
+		System.out.println("d="+d+" a="+a);
+		//added comment
 		
 
 
