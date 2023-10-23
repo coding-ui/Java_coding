@@ -4,7 +4,7 @@ public class variable1 {
 
 	public static void main(String[] args) {
 		// printing variable
-		//first program
+		//first program.
 		int n=1;
 		float f=3.045f;
 		double d=4.67894457803;
@@ -13,6 +13,7 @@ public class variable1 {
 		System.out.println(f);
 		System.out.println(d);
 		System.out.println(l);
+
 
 	}
 

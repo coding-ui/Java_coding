@@ -26,12 +26,22 @@ public class increments {
 		b=20;
 		int x=10;
 		++a;//a=12
+		System.out.println("Example2");
 		c=++a +b+ a--;//12 +20+12-- =>42,a=11.
 		System.out.println("c="+c+" a="+a);
 		int d=c++ +a+ b--;//44++ +11+ 20-- =>75,a=11.
 		System.out.println("d="+d+" a="+a);
-		//added comment
+		//added comment..
+
+		//ternary operator.
+		a=10;
+		b=5;
+		int t =(a>b)? 1:0;
+		System.out.println("Ternary operator");
+		if (t==1){System.out.println("A is greater");}
+		else {System.out.println("B is grater");}
 		
+
 
 
 
