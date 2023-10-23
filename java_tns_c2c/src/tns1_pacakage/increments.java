@@ -14,7 +14,7 @@ public class increments {
 		System.out.println("post Increment");
 		System.out.println("c="+c+" and "+"a="+a);
 		
-		//pre increment
+		//pre increment.
 		a=10;
 		b=20;
 		c=++a;//c=11,a=11
